@@ -65,6 +65,16 @@ hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#F92672
 
+" js
+
+hi jsNoise         guifg=#7E8E91
+hi jsParens        guifg=#7E8E91
+hi jsBraces        guifg=#7E8E91
+hi jsBrackets      guifg=#7E8E91
+hi jsClassBraces   guifg=#7E8E91
+hi jsObjectBraces  guifg=#7E8E91
+hi jsFuncBraces    guifg=#7E8E91
+
 " complete menu
 hi Pmenu           guifg=#66D9EF guibg=#000000
 hi PmenuSel                      guibg=#808080
