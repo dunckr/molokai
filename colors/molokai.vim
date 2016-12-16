@@ -248,3 +248,9 @@ else
   hi jsFuncParens    guifg=#7E8E91
   hi jsReturn        guifg=#7E8E91
 endif
+
+" neomake
+hi NeomakeWarningSign guifg=#E6DB74 gui=bold
+hi NeomakeErrorSign guifg=#F92672 gui=bold
+hi NeomakeMessageSign guifg=#FD971F gui=bold
+hi NeomakeInfoSign guifg=#FD971F gui=bold
