@@ -85,7 +85,7 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
+hi Normal          guifg=#F8F8F2 gui=none
 hi Comment         guifg=#7E8E91
 hi CursorLine                    guibg=#293739
 hi CursorLineNr    guifg=#FD971F               gui=none
@@ -188,7 +188,7 @@ if &t_Co > 255
   hi SpecialKey      ctermfg=59
 
   if exists("g:rehash256") && g:rehash256 == 1
-    hi Normal       ctermfg=252 ctermbg=234
+    hi Normal       ctermfg=252 gui=none
     hi CursorLine               ctermbg=236   cterm=none
     hi CursorLineNr ctermfg=208               cterm=none
 
@@ -254,3 +254,5 @@ hi NeomakeWarningSign guifg=#E6DB74 gui=bold
 hi NeomakeErrorSign guifg=#F92672 gui=bold
 hi NeomakeMessageSign guifg=#FD971F gui=bold
 hi NeomakeInfoSign guifg=#FD971F gui=bold
+
+hi IndentGuidesEven guibg=#222222
